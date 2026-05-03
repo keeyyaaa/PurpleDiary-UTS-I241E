@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_purple_light"
+    tools:context=".LanguageActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/ivLogo"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/logo_diary"
+            android:contentDescription="Logo Diary" />
+
+        <TextView
+            android:id="@+id/tvAppName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Diary notes"
+            android:textColor="@color/text_purple_dark"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvLoadingDots"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="..."
+            android:textColor="@color/text_purple_dark"
+            android:textSize="36sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvGreeting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:text="Halo!"
+            android:textColor="@color/text_purple_dark"
+            android:textSize="28sp" />
+
+        <!--  Gambar bendera akan di-set dari kode Java, jadi kita siapkan tempatnya -->
+        <ImageView
+            android:id="@+id/ivFlag"
+            android:layout_width="40dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="8dp"
+            android:src="@drawable/ic_flag_indonesia"
+            android:contentDescription="Bendera Negara"
+            tools:src="@drawable/ic_flag_indonesia"/> <!-- Ganti dengan nama file bendera Anda -->
+
+    </LinearLayout>
+</RelativeLayout>

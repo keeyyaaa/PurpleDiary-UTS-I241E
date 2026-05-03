@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">PurpleDiary</string>
+
+    <string name="app_title">Diary\nnotes</string>
+    <string name="loading_dots">...</string>
+    <string name="btn_simpan">Simpan</string>
+    <string name="btn_ok">OK</string>
+
+    <string name="sapaan_default">Halo!</string>
+
+    <string name="home_title">Semua\nCatatan</string>
+    <string name="default_count">0 catatan</string>
+
+    <string name="hint_judul">Judul</string>
+    <string name="hint_isi">Tulis catatan...</string>
+    <string name="msg_empty">Isi catatan dulu</string>
+
+    <string name="msg_success">Catatan disimpan.</string>
+</resources>
